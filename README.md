@@ -11,6 +11,10 @@ is using prefix segments inside a `:require` clause. Don't do that.
 Note that this is only designed to catch direct `require`s and not
 transitive usage.
 
+This project is not under active development; if you wish to make a
+contribution please email me and I can move this repository to a new
+host to make further changes.
+
 ## Usage
 
 Put `[lein-blacklist "0.1.0"]` into the `:plugins` vector of your
